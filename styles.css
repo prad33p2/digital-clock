@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E0DDAA;
+    color:#D6E5FA;
+    font-family: sans-serif;
+    
+
+}
+.container{
+    
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 100px;
+    background-color: #395B64;
+    display:flex;
+    flex: 70%;
+    flex-wrap: wrap;
+    padding: 40px;
+    
+    
+}
+.switch{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    border: none;
+    border-radius: 50%;
+    background-color: #EEEDDE;
+
+    
+}
+
+
+.dark-mode{
+    background-color: #2C3333;
+    color: #E0DDAA;
+    transition: all 1s ease-in-out;
+    
+}
+#session{
+    font-size: 50px;
+}
+
+
